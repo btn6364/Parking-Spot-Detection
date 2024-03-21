@@ -1,0 +1,8 @@
+# Path to the training and validation datasets
+path: ../data
+train: train/images # Path to 2763 images
+val: val/images # Path to 593 images
+
+# Classes
+nc: 2  # Number of Classes
+names: ["empty", "occupied"]  # Is the spot empty or occupied?
