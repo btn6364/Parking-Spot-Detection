@@ -1,5 +1,6 @@
 from ultralytics import YOLO
 import os
+import argparse
 
 def loadModel():
     # Load a model
@@ -10,8 +11,12 @@ def loadModel():
     return model
 
 if __name__=="__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--epochs", help="The number of epochs to train the model", default=50, type=int)
+    args = parser.parse_args()
+
     # Load the model
     model = loadModel()
 
     # Train the model
-    model.train(data='configurations/data.yaml', epochs=100)
+    model.train(data='configurations/data.yaml', epochs=args.epochs)
