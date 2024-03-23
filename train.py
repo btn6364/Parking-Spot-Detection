@@ -14,4 +14,4 @@ if __name__=="__main__":
     model = loadModel()
 
     # Train the model
-    results = model.train(data='configurations/data.yaml', epochs=10)
+    model.train(data='configurations/data.yaml', epochs=100)
