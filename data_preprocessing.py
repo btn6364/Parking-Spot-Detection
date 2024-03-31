@@ -7,7 +7,13 @@ def mergeContent():
     print("Start merging content...")
     source_folders = [
         "PKLot/PKLot/PUCPR/Sunny",
+        "PKLot/PKLot/PUCPR/Cloudy",
+        "PKLot/PKLot/PUCPR/Rainy",
+        "PKLot/PKLot/UFPR04/Sunny",
         "PKLot/PKLot/UFPR04/Cloudy",
+        "PKLot/PKLot/UFPR04/Rainy",
+        "PKLot/PKLot/UFPR05/Sunny",
+        "PKLot/PKLot/UFPR05/Cloudy",
         "PKLot/PKLot/UFPR05/Rainy"
     ]
 
