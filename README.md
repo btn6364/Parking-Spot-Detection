@@ -1,6 +1,4 @@
-# Project Title
-
-Parking Spot Detection Using YOLOv8
+# Parking Spot Detection Using YOLOv8
 
 ## Description
 
