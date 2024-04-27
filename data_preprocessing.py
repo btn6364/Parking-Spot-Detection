@@ -185,17 +185,17 @@ def organizeData():
     print("Datasets organized successfully.")
 
 if __name__=="__main__": 
-    # mergeContent() 
-    # moveAnnotatedAndXML() 
-    # moveTXTFiles()
-    # splitData() 
-    # organizeData()
+    mergeContent() 
+    moveAnnotatedAndXML() 
+    moveTXTFiles()
+    splitData() 
+    organizeData()
 
-    print(f"Size of train folder images = {len(os.listdir('data/train/images'))}")
-    print(f"Size of train folder labels = {len(os.listdir('data/train/labels'))}")
+    # print(f"Size of train folder images = {len(os.listdir('data/train/images'))}")
+    # print(f"Size of train folder labels = {len(os.listdir('data/train/labels'))}")
 
-    print(f"Size of test folder images = {len(os.listdir('data/test/images'))}")
-    print(f"Size of test folder labels = {len(os.listdir('data/test/labels'))}")
+    # print(f"Size of test folder images = {len(os.listdir('data/test/images'))}")
+    # print(f"Size of test folder labels = {len(os.listdir('data/test/labels'))}")
 
-    print(f"Size of val folder images = {len(os.listdir('data/val/images'))}")
-    print(f"Size of val folder labels = {len(os.listdir('data/val/labels'))}")
+    # print(f"Size of val folder images = {len(os.listdir('data/val/images'))}")
+    # print(f"Size of val folder labels = {len(os.listdir('data/val/labels'))}")
