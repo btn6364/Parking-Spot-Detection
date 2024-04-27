@@ -31,7 +31,7 @@ def test(model, test_image):
 
     # Save the predicted image to disk
     file_name = test_image.split("/")[-1]
-    result.save(filename=f"prediction/result_{file_name}") 
+    result.save(filename=f"prediction/images/result_{file_name}") 
 
 
 if __name__=="__main__": 
@@ -40,7 +40,7 @@ if __name__=="__main__":
 
     # Add two command line arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ckpt", help="The pretrained model checkpoint", default="runs/detect/train/weights/best.pt")
+    parser.add_argument("--ckpt", help="The pretrained model checkpoint", default="runs/detect/train4/weights/best.pt")
     parser.add_argument("--test", help="The path of the test image that you want to run prediction on", default=random_image_path)
     args = parser.parse_args()
 
